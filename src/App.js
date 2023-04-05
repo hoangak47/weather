@@ -100,7 +100,7 @@ function App() {
                   icon={icon({ name: "droplet" })}
                 />
                 <div className="weather__status--text">
-                  {data.lenght !== 0 ? data.clouds.all : null} %
+                  {data.lenght !== 0 ? data.main.humidity : null} %
                 </div>
               </div>
             </div>
